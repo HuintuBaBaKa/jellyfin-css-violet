@@ -8,7 +8,7 @@
     --secondary-accent-color: #00a4dc20;
     --primary-background-color: var(--primary-b);
     --secondary-background-color: var(--primary-b);
-    --primary-background-transparent: rgba(35,35,35,0.5);
+    --primary-background-transparent: rgba(80,47,223,0.5);
     --secondary-background-transparent: rgba(0,0,0,0.6);
     --tertiary-background-transparent: rgba(35,35,35,0.85);
     --rounded-cards: 15px;
@@ -540,14 +540,14 @@ input:focus input[type=checkbox]:focus {
     background-color: rgba(40, 40, 40, 0.9) !important;
 }
 .emby-tab-button.show-focus:focus,.emby-tab-button:hover {
-    color: #316636 !important;
+    color: var(--primary-background-transparent) !important;
 }
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred .paper-icon-button-light:hover:not(:disabled) {
-    color: #502FDF !important;
+    color: var(--primary-background-transparent) !important;
     background-color: rgba(49, 102, 54, .2) !important;
 }
 .emby-checkbox:checked, .checkboxOutline, .checkboxIcon-checked {
-	color: #429101 !important;
-	background-color: rgba(41, 41, 41, 1) !important;
-	border-color: rgba(150, 150, 150, 1) !important;
+	color: var(--primary-r) !important;
+	background-color: var(--primary-background-transparent) !important;
+	border-color: var(--primary-r) !important;
 }
