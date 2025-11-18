@@ -212,9 +212,6 @@ html,
 .skinHeader {
     background-color: transparent !important;
 }
-.layout-tv .skinHeader {
-    padding-bottom: 10px !important;
-}
 /* Rounded header buttons */
 .headerTabs, .headerRight {
     background-color: var(--primary-background-transparent) !important;
@@ -227,6 +224,14 @@ html,
     max-width: 60em;
     margin-right: auto;
     margin-left: auto;
+    text-size-adjust: 110%;  
+    font-size: 110%;
+}
+.layout-desktop .headerTabs,
+.layout-tv .headerTabs {
+    margin-bottom: 10px !important;
+    text-size-adjust: 110%;  
+    font-size: 110%;
 }
 .layout-desktop .headerTabs {
     margin-top: -40px !important;
