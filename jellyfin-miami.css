@@ -237,12 +237,11 @@ html,
 .layout-desktop .headerTabs,
 .layout-tv .headerTabs {
     margin-bottom: 10px !important;
-	max-size: 28rem;
+	max-width: 28em;
 }
 .layout-desktop .headerTabs {
-    margin-left: 160px !important;
     margin-top: -58px !important;
-	max-size: 28rem;
+	max-width: 28em;
 }
 /* Button height */
 .headerRight,
