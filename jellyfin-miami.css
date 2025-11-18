@@ -136,7 +136,7 @@ progress::-webkit-progress-value {
 }
 
 .backgroundContainer {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
   background-image: url('https://i.ibb.co/fYrcTb89/Frame-8.png');
   filter: blur(2px);
   background-size: cover;
@@ -222,7 +222,6 @@ html,
 }
 .layout-desktop .headerTabs,
 .layout-tv .headerTabs {
-    margin-bottom: 10px !important;
     max-width: 60em;
     margin-right: auto;
     margin-left: auto;
@@ -320,32 +319,9 @@ html,
 }
 
 
-.mdl-slider { color: var(--primary-accent-color); }
-.mdl-slider::-webkit-slider-thumb { color: var(--primary-accent-color); }
-.mdl-slider::-ms-thumb { background: var(--primary-accent-color); }
-.mdl-slider::-webkit-slider-thumb { background: var(--primary-accent-color) }
-.mdl-slider::-moz-range-thumb { background: var(--primary-accent-color) }
-.mdl-slider-background-lower { color: var(--primary-accent-color); background-color: var(--primary-accent-color); }
-.mdl-slider::-moz-range-progress { color: var(--primary-accent-color); }
-.skinHeader-withBackground { background-color: var(--primary-accent-color) !important; }
-.navMenuOption-selected { background: var(--primary-accent-color) !important; }
-a.navMenuOption-selected { background: var(--primary-accent-color) !important; }
-.button-submit { background: var(--primary-accent-color) !important; }
-.button-link { color: var(--primary-accent-color) !important; }
-.listItemIcon:not(.listItemIcon-transparent) { background-color: var(--primary-accent-color) !important; }
-.emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground { background-color: var(--primary-accent-color) !important; }
-.emby-checkbox:checked+span+span+.checkboxOutline { border-color: var(--primary-accent-color) !important; }
-.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused { color: var(--primary-accent-color); }
-.iconOsdProgressInner { background: var(--primary-accent-color) !important; }
-.card { cursor: unset !important; }
-.cardOverlayContainer { cursor: pointer !important };
-.mdl-switch:focus, .mdl-switch__input:focus, .noautofocus:focus { outline: rgba(49, 102, 54, 0.5) auto 1px !important; };
-
-
 div[data-role=controlgroup] a.ui-btn-active {
     background: #7C5EFF !important;
 }
-
 
 .appfooter {
     background: #0c0c0c !important;
