@@ -6,7 +6,7 @@
     --primary-b: 502FDF;
     --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
     --secondary-accent-color: 6642FF;
-    --primary-background-color: rgba(80,47,223,0.5);
+    --primary-background-color: rgba(80,47,223,0.2);
     --secondary-background-color: rgba(80,47,223,0.5);
     --primary-background-transparent: rgba(35,35,35,0.5);
     --secondary-background-transparent: rgba(0,0,0,0.6);
