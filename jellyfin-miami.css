@@ -98,6 +98,58 @@ progress::-webkit-progress-value {
     margin: 0 !important;
 }
 
+/* Lower drawer buttons */
+.layout-desktop .mainDrawer-scrollContainer {
+    margin-top: 95px !important;
+    margin-left: 10px !important;
+}
+.layout-mobile .mainDrawer-scrollContainer {
+    margin-top: 15px !important;
+}
+/* Shift content to the right */
+.layout-desktop .libraryPage {
+    margin-left: 250px !important;
+}
+/* Fix for Jellyfin Media Player */
+.quickConnectSettingsContainer {
+    margin-left: 250px !important;
+}
+/* Hide transition on page load */
+.layout-desktop .touch-menu-la.transition {
+    transition: none !important;
+}
+/* Hide hamburger button */
+.layout-desktop .mainDrawerButton {
+    display: none !important;
+}
+/* Hide home button */
+.layout-desktop .headerHomeButton {
+    display: none !important;
+}
+/* Fix for video player and login page */
+.layout-desktop .hide-scroll .mainDrawer,
+.layout-desktop .hideMainDrawer .mainDrawer {
+    left: -320px !important;
+}
+/* Fix for collection items misalignment */
+.layout-desktop .collectionItems .collectionItemsContainer {
+    padding-left: 0% !important;
+}
+.layout-desktop .collectionItems .sectionTitleContainer {
+    padding-left: 0% !important;
+}
+/* Dynamic buttons */
+.layout-desktop .navMenuOption:hover:not(.navMenuOption-selected) {
+    transform: scale(1.05) !important;
+}
+.layout-desktop .listItem {
+    transition: .2s !important;
+    border-radius: var(--rounded-cards) !important;
+}
+.layout-desktop #myPreferencesMenuPage .listItem:hover {
+    transform: scale(1.015);
+}
+
 
 
 
