@@ -30,6 +30,22 @@ CSS Jellyfin heme Name: Miami Retro
   background-size: cover;
 }
 
+.backdropContainer {
+    -webkit-backface-visibility: visible;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: visible;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-filter: blur(15px) !important;
+    -moz-filter: blur(15px) !important;
+    -o-filter: blur(15px) !important;
+    -ms-filter: blur(15px) !important;
+    filter: blur(15px) !important;
+}
+
 .mdl-slider { color: #7C5EFF; }
 .mdl-slider::-webkit-slider-thumb { color: #7C5EFF; }
 .mdl-slider::-ms-thumb { background: #7C5EFF; }
