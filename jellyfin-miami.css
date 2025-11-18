@@ -54,14 +54,25 @@ CSS Jellyfin heme Name: Miami Retro
 }
 
 #searchPage h2 {display: none}  
+
 #searchPage .verticalSection.searchSuggestions {
-    margin-top: 80px;
-    max-width: 28em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    max-width: 60em;
     padding: 32px;
     background-color: #202020; /* dark gray background */
     border-radius: 20px; /* rounded corners */
 }
-#searchPage .padded-left.padded-right.padded-bottom-page {margin-top: 80px}
+
+#searchPage .verticalSection.searchSuggestions { 
+    display: flex;
+    justify-content: center;
+}
+
 
 /*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
