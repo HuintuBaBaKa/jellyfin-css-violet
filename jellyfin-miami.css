@@ -33,9 +33,7 @@ div[data-role=controlgroup] a.ui-btn-active {
     background: #0c0c0c !important;
 }
 
-.backgroundContainer,
-.dialog,
-html {  
+.backgroundContainer {  
   background-color: rgba(0, 0, 0, 0);  
   background-image: url("https://i.ibb.co/fYrcTb89/Frame-8.png");  
   background-blend-mode: overlay;  
