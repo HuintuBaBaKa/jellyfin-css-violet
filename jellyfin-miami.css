@@ -4,9 +4,9 @@ CSS Jellyfin heme Name: Miami Retro
 
 /*Narrow the login form*/  
 #loginPage .readOnlyContent, #loginPage form {
-	max-width: 28em;
-	padding: 20px;
-    background-color: #f0f0f0; /* light gray background */
+    max-width: 28em;
+    padding: 32px;
+    background-color: #202020; /* dark gray background */
     border-radius: 20px; /* rounded corners */
 }
 
@@ -136,7 +136,7 @@ div[data-role=controlgroup] a.ui-btn-active {
 }
 
 .itemSelectionPanel {
-    border: 1px solid #6642FF !important;
+    border: 1px solid #7C5EFF !important;
 }
 
 .selectionCommandsPanel {
@@ -158,6 +158,13 @@ div[data-role=controlgroup] a.ui-btn-active {
 .button-flat-accent,
 .button-link {
     color: #7C5EFF !important;
+}
+
+.searchSuggestionsList padded-left padded-right {
+	max-width: 28em;
+    padding: 32px;
+    background-color: #202020; /* dark gray background */
+    border-radius: 20px; /* rounded corners */
 }
 
 .emby-input:focus,
