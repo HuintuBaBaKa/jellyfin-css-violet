@@ -140,7 +140,7 @@ progress::-webkit-progress-value {
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 100);
   background-image: url('https://i.ibb.co/zTSgG3rX/grayscale-circles-3840x2160-18964.jpg');
-  filter: blur(4px);
+  filter: blur(4px) brightness(60%);
   background-size: cover;
   transform: scale(1.1);
 }
