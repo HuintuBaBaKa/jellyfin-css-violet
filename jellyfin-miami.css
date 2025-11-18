@@ -93,31 +93,6 @@ progress::-webkit-progress-value {
     height: 40px !important;
 }
 
-/* Fix for empty header with padding */
-[dir="ltr"] .pageTitle:not(.pageTitleWithLogo):empty {
-    margin: 0 !important;
-}
-
-
-/* Fix for Jellyfin Media Player */
-.quickConnectSettingsContainer {
-    margin-left: 250px !important;
-}
-/* Hide transition on page load */
-.layout-desktop .touch-menu-la.transition {
-    transition: none !important;
-}
-
-/* Hide home button */
-.layout-desktop .headerHomeButton {
-    display: none !important;
-}
-
-/* Fix for video player and login page */
-.layout-desktop .hide-scroll .mainDrawer,
-.layout-desktop .hideMainDrawer .mainDrawer {
-    left: -320px !important;
-}
 /* Fix for collection items misalignment */
 .layout-desktop .collectionItems .collectionItemsContainer {
     padding-left: 0% !important;
