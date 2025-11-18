@@ -160,7 +160,7 @@ div[data-role=controlgroup] a.ui-btn-active {
     color: #7C5EFF !important;
 }
 
-.searchSuggestionsList padded-left padded-right {
+#searchPage .searchSuggestionsList.padded-left.padded-right {
 	max-width: 28em;
     padding: 32px;
     background-color: #202020; /* dark gray background */
