@@ -212,16 +212,11 @@ html,
 .skinHeader {
     background-color: transparent !important;
 }
-.layout-desktop .skinHeader,
-.layout-tv .skinHeader {
-    padding-top: 1.5em !important;
-}
 .layout-tv .skinHeader {
     padding-bottom: 10px !important;
 }
 /* Rounded header buttons */
-.headerTabs,
-.headerRight {
+.headerTabs, .headerRight {
     background-color: var(--primary-background-transparent) !important;
     border-radius: 50px !important;
     backdrop-filter: blur(var(--blur)) !important;
@@ -234,7 +229,7 @@ html,
     margin-left: auto;
 }
 .layout-desktop .headerTabs {
-    margin-top: -58px !important;
+    margin-top: -40px !important;
     margin-right: auto;
     margin-left: auto;
     max-width: 60em;
