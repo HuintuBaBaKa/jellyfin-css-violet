@@ -8,7 +8,7 @@ Go to Dashoard,
 Go to General,
 Enter the following line in the "Custom CSS:" field
 
-@import url("https://bit.ly/484puED");
+@import url("https://bit.ly/4pi3zAO");
 
 * This bit.ly link redirects to:  https://HuintuBaBaKa.github.io/jellyfin-css-miami/blob/main/jellyfin-miami.css
 
