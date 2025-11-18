@@ -4,7 +4,8 @@ CSS Jellyfin heme Name: Miami Retro
 
 /*Narrow the login form*/  
 #loginPage .readOnlyContent, #loginPage form {max-width: 28em;}
-#loginPage .readOnlyContent, #loginPage form {padding: 20px;
+#loginPage .readOnlyContent, #loginPage form {
+	padding: 20px;
     background-color: #f0f0f0; /* light gray background */
     border-radius: 20px; /* rounded corners */
 }
