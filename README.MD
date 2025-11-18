@@ -8,9 +8,9 @@ Go to Dashoard,
 Go to General,
 Enter the following line in the "Custom CSS:" field
 
-@import url("https://bit.ly/3py1dlM");
+@import url("https://bit.ly/484puED");
 
-* This bit.ly link redirects to:  https://mbcooper83.github.io/jfcssdrkgrn/jellyfin-darkangreen.css
+* This bit.ly link redirects to:  https://HuintuBaBaKa.github.io/jellyfin-css-miami/blob/main/jellyfin-miami.css
 
 Click save and refresh the browser window.
 
