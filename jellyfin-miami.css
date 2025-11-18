@@ -185,23 +185,23 @@ progress::-webkit-progress-value {
 .pageTitle {margin-top: auto; margin-bottom: auto;}
 .emby-tab-button {padding: 1.75em 1.7em;}
 
-.mdl-slider { color: #7C5EFF; }
-.mdl-slider::-webkit-slider-thumb { color: #7C5EFF; }
-.mdl-slider::-ms-thumb { background: #7C5EFF; }
-.mdl-slider::-webkit-slider-thumb { background: #7C5EFF; }
-.mdl-slider::-moz-range-thumb { background: #7C5EFF; }
-.mdl-slider-background-lower { color: #7C5EFF; background-color: #7C5EFF; }
-.mdl-slider::-moz-range-progress { color: #7C5EFF; }
-.skinHeader-withBackground { background-color: #7C5EFF !important; }
-.navMenuOption-selected { background: #7C5EFF !important; }
-a.navMenuOption-selected { background: #7C5EFF !important; }
-.button-submit { background: #7C5EFF !important; }
-.button-link { color: #7C5EFF !important; }
-.listItemIcon:not(.listItemIcon-transparent) { background-color: #7C5EFF !important; }
-.emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground { background-color: #7C5EFF !important; }
-.emby-checkbox:checked+span+span+.checkboxOutline { border-color: #7C5EFF !important; }
-.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused { color: #7C5EFF; }
-.iconOsdProgressInner { background: #7C5EFF !important; }
+.mdl-slider { color: var(--primary-accent-color); }
+.mdl-slider::-webkit-slider-thumb { color: var(--primary-accent-color); }
+.mdl-slider::-ms-thumb { background: var(--primary-accent-color); }
+.mdl-slider::-webkit-slider-thumb { background: var(--primary-accent-color) }
+.mdl-slider::-moz-range-thumb { background: var(--primary-accent-color) }
+.mdl-slider-background-lower { color: var(--primary-accent-color); background-color: var(--primary-accent-color); }
+.mdl-slider::-moz-range-progress { color: var(--primary-accent-color); }
+.skinHeader-withBackground { background-color: var(--primary-accent-color) !important; }
+.navMenuOption-selected { background: var(--primary-accent-color) !important; }
+a.navMenuOption-selected { background: var(--primary-accent-color) !important; }
+.button-submit { background: var(--primary-accent-color) !important; }
+.button-link { color: var(--primary-accent-color) !important; }
+.listItemIcon:not(.listItemIcon-transparent) { background-color: var(--primary-accent-color) !important; }
+.emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground { background-color: var(--primary-accent-color) !important; }
+.emby-checkbox:checked+span+span+.checkboxOutline { border-color: var(--primary-accent-color) !important; }
+.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused { color: var(--primary-accent-color); }
+.iconOsdProgressInner { background: var(--primary-accent-color) !important; }
 .card { cursor: unset !important; }
 .cardOverlayContainer { cursor: pointer !important };
 .mdl-switch:focus, .mdl-switch__input:focus, .noautofocus:focus { outline: rgba(49, 102, 54, 0.5) auto 1px !important; };
