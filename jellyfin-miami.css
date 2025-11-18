@@ -98,14 +98,6 @@ progress::-webkit-progress-value {
     margin: 0 !important;
 }
 
-/* Lower drawer buttons */
-.layout-desktop .mainDrawer-scrollContainer {
-    margin-top: 95px !important;
-    margin-left: 10px !important;
-}
-.layout-mobile .mainDrawer-scrollContainer {
-    margin-top: 15px !important;
-}
 
 /* Fix for Jellyfin Media Player */
 .quickConnectSettingsContainer {
@@ -115,14 +107,12 @@ progress::-webkit-progress-value {
 .layout-desktop .touch-menu-la.transition {
     transition: none !important;
 }
-/* Hide hamburger button */
-.layout-desktop .mainDrawerButton {
-    display: none !important;
-}
+
 /* Hide home button */
 .layout-desktop .headerHomeButton {
     display: none !important;
 }
+
 /* Fix for video player and login page */
 .layout-desktop .hide-scroll .mainDrawer,
 .layout-desktop .hideMainDrawer .mainDrawer {
@@ -166,8 +156,6 @@ progress::-webkit-progress-value {
 /*Hide "manual" and "forgot" buttons*/  
 #loginPage .raised.cancel.block.btnManual.emby-button {display: none}  
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
-
-
 
 
 
@@ -227,6 +215,32 @@ progress::-webkit-progress-value {
 
 
 
+/* Fix for header buttons */
+.headerTabs, sectionTabs {
+	max-size: 28rem;
+}
+.layout-desktop .emby-button-foreground {
+    top: -9px !important;
+}
+.layout-tv .emby-button-foreground {
+    top: -14px !important;
+}
+
+/* Custom button color */
+.navMenuOption-selected {
+    background: var(--secondary-accent-color) !important;
+    color: var(--primary-accent-color) !important;
+}
+
+/* Modified background color */
+html,
+.backgroundContainer:not(.withBackdrop):not(.backgroundContainer-transparent),
+.noBackdropTransparency .detailPageSecondaryContainer {
+    background-color: var(--primary-background-color) !important;
+}
+
+
+
 /*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
 .skinHeader {
     background-color: transparent !important;
@@ -248,10 +262,12 @@ progress::-webkit-progress-value {
 .layout-desktop .headerTabs,
 .layout-tv .headerTabs {
     margin-bottom: 10px !important;
+	max-size: 28rem;
 }
 .layout-desktop .headerTabs {
     margin-left: 160px !important;
     margin-top: -58px !important;
+	max-size: 28rem;
 }
 /* Button height */
 .headerRight,
