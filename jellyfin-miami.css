@@ -1,10 +1,7 @@
 /*CSS Jellyfin heme Name: Miami Retro*/
 /* Variables */
 :root {
-    --primary-r: 7C5EFF;
-    --primary-g: 6642FF;
-    --primary-b: 502FDF;
-    --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
+    --primary-accent-color: 7C5EFF;
     --secondary-accent-color: 6642FF;
     --primary-background-color: rgba(30,23,58,0.6);
     --secondary-background-color: rgba(30,23,58,0.2);
@@ -15,14 +12,6 @@
     --blur: 10px;
 }
 
-	
-    /* Alternate accents*/
-    --primary-alt1: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 1);
-    --primary-alt2: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.85);
-    --primary-alt3: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.7);
-    --primary-alt4: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.55);
-    --primary-alt5: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.4);
-}
 
 /* Setting accent color variable */
 .emby-checkbox:checked + span + .checkboxOutline,
